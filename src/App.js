@@ -3,15 +3,12 @@ import Board from "./Board";
 import "./App.css";
 
 /** Simple app that just shows the LightsOut game. */
-
-class App extends Component {
-  render() {
-    return (
-      <div className='App'>
-        <Board />
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div className='App'>
+      <Board />
+    </div>
+  );
 }
 
 export default App;
